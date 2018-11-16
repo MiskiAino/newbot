@@ -10,7 +10,7 @@ USERS = set()
 
 
 # удаление сообщение с ссылками
-GROUP_ID = 256567579 # Ваш ID группы
+GROUP_ID = -1001320869736 # Ваш ID группы
 
 @bot.message_handler(func=lambda message: message.entities is not None and message.chat.id == GROUP_ID)
 def delete_links(message):
