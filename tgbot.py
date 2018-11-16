@@ -15,10 +15,6 @@ def command_handler(message: Message):
 
 
 
-@bot.message_handler(commands=[''])
-def command_handler(message: Message):
-
-
 
 @bot.message_handler(content_types=['text'])
 def echo_digits(message: Message):
